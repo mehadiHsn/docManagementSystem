@@ -1,0 +1,1 @@
+bash -c "php artisan serve"

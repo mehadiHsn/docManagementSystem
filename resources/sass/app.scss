@@ -1,0 +1,66 @@
+
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+caption {
+caption-side: top;
+}
+/*.card-body {
+padding: 0.25rem 0rem ;
+}*/
+.navbar-laravel {
+background-color: rgba(0,0,0,0.1);
+box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
+}
+li.custom-nav > a:hover,
+li.custom-nav > a:focus{
+background: rgba(96, 226, 45,0.25);
+}
+li.custom-nav > a.router-link-exact-active{
+background: rgba(57, 206, 239,1);
+color:white;
+text-decoration: none;
+}
+.nav-pills .nav-link {
+border-radius: 0rem;
+}
+.bg-my1{
+background: rgba(57, 206, 239,1);
+}
+.btn-my{
+border: 1px solid grey;
+background: rgba(57, 206, 239,1);
+
+  transition: 1.0s;
+}
+.btn-my:hover,.btn-my:active,.btn-my:focus{
+	background:rgb(42, 166, 193);
+}
+.navbar{
+padding: 0.1rem 1rem;margin-bottom: 0.5rem;
+}
+.nav-fill .nav-item {
+text-align: left;
+}
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+color: #fff;
+background-color: rgba(57, 206, 239,1);
+}
+
+
+body,html{
+height: 100%;
+}
+div.no-login{
+background: url('/svg/bg.webp') no-repeat center center fixed; 
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+min-height: 100%;
+}
