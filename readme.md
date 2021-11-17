@@ -8,7 +8,7 @@
 </p>
 
 ## Run these command in bash/cmd
-- clone : `git clone https://github.com/sejanH/docmanagement.git` then `cd docmanagement`
+- clone : `https://github.com/mehadiHsn/docManagementSystem.git` then `cd docmanagement`
 - `composer install` and `npm install`
 - rename the **.env.example** to **.env** then add database config
 - `php artisan storage:link`
